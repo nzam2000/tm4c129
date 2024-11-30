@@ -8,6 +8,8 @@ add_link_options(-T ${PROJECT_SOURCE_DIR}/gcc_tm4c129.ld -nostdlib -nostartfiles
 set(SOURCES
         src/main.c
         src/startup_tm4c129.c
+        src/stdlib/printf.c
+        src/stdlib/stdlib_hooks.c
 )
 
 include_directories(
