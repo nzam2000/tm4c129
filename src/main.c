@@ -8,16 +8,16 @@
 
 void SystemInit();
 
-int main()
-{
-    SystemInit();
+int main() {
+  SystemInit();
 
-    while (true) {
-        ;
-    }
-    return 0;
+  while (true) {
+    ;
+  }
+  return 0;
 }
 
 void SystemInit()
 {
+void SystemInit() {
 }

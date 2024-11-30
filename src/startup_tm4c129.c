@@ -149,43 +149,38 @@ void (*vectors[])() __attribute__((section(".vectors"))) = {
 /*
  * Handlers
  */
-void Reset_Handler()
-{
-    // copy .data section from flash to RAM
-    extern uint32_t __etext; // LMA
-    extern uint32_t __sdata; // VMA
-    extern uint32_t __edata;
-    uint32_t* etext = &__etext;
-    uint32_t* sdata = &__sdata;
-    uint32_t* edata = &__edata;
+void Reset_Handler() {
+  // copy .data section from flash to RAM
+  extern uint32_t __etext; // LMA
+  extern uint32_t __sdata; // VMA
+  extern uint32_t __edata;
+  uint32_t* etext = &__etext;
+  uint32_t* sdata = &__sdata;
+  uint32_t* edata = &__edata;
 
-    while (sdata <= edata)
-    {
-        *sdata++ = *etext++;
-    }
+  while (sdata <= edata) {
+    *sdata++ = *etext++;
+  }
 
-    // zero .bss section
-    extern uint32_t __sbss;
-    extern uint32_t __ebss;
-    uint32_t* sbss = &__sbss;
-    uint32_t* ebss = &__ebss;
+  // zero .bss section
+  extern uint32_t __sbss;
+  extern uint32_t __ebss;
+  uint32_t* sbss = &__sbss;
+  uint32_t* ebss = &__ebss;
 
-    while (sbss <= ebss)
-    {
-        *sbss++ = 0;
-    }
+  while (sbss <= ebss) {
+    *sbss++ = 0;
+  }
 
-    // call main
-    extern int main();
-    main();
-    while (1); // we should never get here
-    // could appy POR instead
-    // or decode the return value from main
+  // call main
+  extern int main();
+  main();
+  while (1); // we should never get here
+  // could appy POR instead
+  // or decode the return value from main
 }
 
-void Default_Handler()
-{
-    while (1)
-    {
-    }
+void Default_Handler() {
+  while (1) {
+  }
 }
