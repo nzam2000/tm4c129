@@ -5,6 +5,7 @@
  * @brief Main function
  */
 #include <stdbool.h>
+#include "uart_comm.h"
 
 void SystemInit();
 
@@ -12,12 +13,10 @@ int main() {
   SystemInit();
 
   while (true) {
-    ;
   }
   return 0;
 }
 
-void SystemInit()
-{
 void SystemInit() {
+  UartInit(uart_comm);
 }

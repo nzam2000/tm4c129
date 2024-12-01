@@ -10,10 +10,12 @@ set(SOURCES
         src/startup_tm4c129.c
         src/stdlib/printf.c
         src/stdlib/stdlib_hooks.c
+        src/uart/uart_comm.c
 )
 
 include_directories(
         src
+        src/uart
 )
 
 add_executable(tm4c129 ${SOURCES})

@@ -537,12 +537,12 @@ static void _doprnt(register const char* fmt, va_list* argp,
 }
 
 /* derived from boot_gets */
-void safe_gets(char* str, int maxlen) {
+char* fgets(char* restrict s, int n, FILE* restrict stream) {
   register char* lp;
   register int c;
-  char* strmax = str + maxlen - 1; /* allow space for trailing 0 */
+  char* strmax = s + n - 1; /* allow space for trailing 0 */
 
-  lp = str;
+  lp = s;
   for (;;) {
     c = getchar();
     switch (c) {
@@ -551,12 +551,12 @@ void safe_gets(char* str, int maxlen) {
       case EOF:
         printf("\n");
         *lp++ = 0;
-        return;
+        return c == EOF ? NULL : s;
 
       case '\b':
       case '#':
       case '\177':
-        if (lp > str) {
+        if (lp > s) {
           printf("\b \b");
           lp--;
         }
@@ -564,7 +564,7 @@ void safe_gets(char* str, int maxlen) {
 
       case '@':
       case 'u' & 037:
-        lp = str;
+        lp = s;
         printf("\n\r");
         continue;
 
