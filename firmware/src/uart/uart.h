@@ -11,7 +11,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-typedef struct {
+typedef const struct {
  void (*Init)(void* drv_data);
  bool (*Write)(void* drv_data, uint8_t c_out);
  bool (*Read)(void* drv_data, uint8_t* c_in);
