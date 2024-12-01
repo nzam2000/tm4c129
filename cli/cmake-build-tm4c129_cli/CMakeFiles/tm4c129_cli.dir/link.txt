@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/tm4c129_cli.dir/src/main.cpp.o -o tm4c129_cli

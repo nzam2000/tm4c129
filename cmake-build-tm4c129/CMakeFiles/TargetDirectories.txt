@@ -1,3 +1,0 @@
-/home/nzamora/Documents/repos/tm4c129/cmake-build-tm4c129/CMakeFiles/tm4c129.dir
-/home/nzamora/Documents/repos/tm4c129/cmake-build-tm4c129/CMakeFiles/edit_cache.dir
-/home/nzamora/Documents/repos/tm4c129/cmake-build-tm4c129/CMakeFiles/rebuild_cache.dir
