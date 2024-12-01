@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.28)
-project(tm4c129 C)
+project(tm4c129_fw C)
 set(CMAKE_C_STANDARD 11)
 
 add_compile_options(-march=armv7e-m -g3)

@@ -1,0 +1,34 @@
+CMakeFiles/tm4c129.dir/src/stdlib_hooks.c.obj: \
+ /home/nzamora/Documents/repos/tm4c129/src/stdlib_hooks.c \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/errno.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/errno.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/reent.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/newlib.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_newlib_version.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/config.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/ieeefp.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/features.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_types.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_types.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/lock.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/stat.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/time.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_ansi.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/cdefs.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/time.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/types.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/endian.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_endian.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/select.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_sigset.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_timeval.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/timespec.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_timespec.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/sched.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/types.h \
+ /home/nzamora/Programs/gcc_arm/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_locale.h

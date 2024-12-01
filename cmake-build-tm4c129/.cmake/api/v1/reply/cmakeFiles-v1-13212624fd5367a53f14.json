@@ -1,0 +1,90 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-tm4c129/CMakeFiles/3.29.6/CMakeSystem.cmake"
+		},
+		{
+			"path" : "toolchain_gcc_arm.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nzamora/Programs/jetbrains/clion/clion-2024.2.3/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-tm4c129/CMakeFiles/3.29.6/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nzamora/Programs/jetbrains/clion/clion-2024.2.3/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nzamora/Programs/jetbrains/clion/clion-2024.2.3/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nzamora/Programs/jetbrains/clion/clion-2024.2.3/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nzamora/Programs/jetbrains/clion/clion-2024.2.3/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nzamora/Programs/jetbrains/clion/clion-2024.2.3/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nzamora/Programs/jetbrains/clion/clion-2024.2.3/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nzamora/Programs/jetbrains/clion/clion-2024.2.3/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nzamora/Programs/jetbrains/clion/clion-2024.2.3/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nzamora/Programs/jetbrains/clion/clion-2024.2.3/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nzamora/Programs/jetbrains/clion/clion-2024.2.3/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/nzamora/Programs/jetbrains/clion/clion-2024.2.3/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/nzamora/Documents/repos/tm4c129/cmake-build-tm4c129",
+		"source" : "/home/nzamora/Documents/repos/tm4c129"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
