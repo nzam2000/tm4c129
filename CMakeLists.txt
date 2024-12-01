@@ -18,15 +18,15 @@ include_directories(
         src/uart
 )
 
-add_executable(tm4c129 ${SOURCES})
+add_executable(${PROJECT_NAME} ${SOURCES})
 
-add_custom_command(TARGET tm4c129 POST_BUILD
-        COMMAND ${CMAKE_OBJCOPY} -O binary tm4c129 tm4c129.bin
-        COMMAND ${CMAKE_OBJDUMP} -d -z --insn-width=4 -EL tm4c129 > tm4c129_disassembly.txt
+add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
+        COMMAND ${CMAKE_OBJCOPY} -O binary ${PROJECT_NAME} ${PROJECT_NAME}.bin
+        COMMAND ${CMAKE_OBJDUMP} -d -z --insn-width=4 -EL ${PROJECT_NAME} > ${PROJECT_NAME}_disassembly.txt
 )
 
 set_property(
-        TARGET tm4c129
+        TARGET ${PROJECT_NAME}
         APPEND
-        PROPERTY ADDITIONAL_CLEAN_FILES tm4c129.bin tm4c129_map.txt tm4c129_disassembly.txt
+        PROPERTY ADDITIONAL_CLEAN_FILES ${PROJECT_NAME}.bin ${PROJECT_NAME}_map.txt ${PROJECT_NAME}_disassembly.txt
 )
